@@ -91,9 +91,9 @@ function Cta() {
                                     </a>
                                     <div className='flex gap-3'>
                                         <MaskImage w='1.2em' h='1.2em' url="/icons/map.svg" bg="var(--bg-w)" hBg="" c="flex-shrink-0" hL="1" />
-                                        <span className='text-[var(--t-c-l)] font-normal text-[.95em] tracking-[1px] leading-5'>24J6+XQ9, Mangadu Rd,
-                                            Padmavathi Nagar,
-                                            Mangadu, Chennai- 600122 </span>
+                                        <span className='text-[var(--t-c-l)] font-normal text-[.95em] tracking-[1px] leading-relaxed'>494, Kundrathur Main Rd,
+                                            Padmavathi Nagar, Kamatchiamman Nagar,
+                                            Mangadu, Tamil Nadu 600122 </span>
                                     </div>
                                 </div>
                             </div>
@@ -104,10 +104,10 @@ function Cta() {
                                     <h2 className='text-[var(--t-c-l)] font-bold tracking-[1px] text-[1.2em] relative leading-6'>Quick Links</h2>
                                     <div className='mt-5 flex flex-col gap-2'>
                                         <Link className='text-[var(--t-c-l)] text-[1.1em] tracking-[.5px] relative hover:text-[var(--acc-1)] transition-colors' to="/about">About Doctor</Link>
-                                        <a className='text-[var(--t-c-l)] text-[1.1em] tracking-[.5px] relative' href="/">Expertise</a>
-                                        <a className='text-[var(--t-c-l)] text-[1.1em] tracking-[.5px] relative' href="/">Patient Outcomes</a>
-                                        <a className='text-[var(--t-c-l)] text-[1.1em] tracking-[.5px] relative' href="/">Al In Cardiac Surgery</a>
-                                        <a className='text-[var(--t-c-l)] text-[1.1em] tracking-[.5px] relative' href="/">Contact</a>
+                                        <a className='text-[var(--t-c-l)] text-[1.1em] tracking-[.5px] relative' href="/#why-choose">Expertise</a>
+                                        <a className='text-[var(--t-c-l)] text-[1.1em] tracking-[.5px] relative' href="/#treatment">Patient Outcomes</a>
+                                        <a className='text-[var(--t-c-l)] text-[1.1em] tracking-[.5px] relative' href="/#surgery">Cardiac Surgery</a>
+                                        <Link className='text-[var(--t-c-l)] text-[1.1em] tracking-[.5px] relative hover:text-[var(--acc-1)] transition-colors' to="/contact">Contact Us</Link>
                                     </div>
                                 </div>
                                 <MaskImage w='100%' h='1.2em' url="/com/2.png" bg="var(--bg-w)" hBg="" hL="1" />

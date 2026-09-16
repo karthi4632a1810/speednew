@@ -108,9 +108,9 @@ function Header() {
 
               <div onClick={() => { setIsMenuOpen(false); setDropdownOpen(null); }} className='py-4 flex lg:h-full items-center gap-2 border-b border-[#013d7220] lg:border-[transparent]'>
                 <div className="flex items-center md:hidden">
-                  <MaskImage w='1em' h='1em' url="/icons/blog.svg" bg="var(--acc-2)" hBg="" c="" hL="1" />
+                  <MaskImage w='1em' h='1em' url="/icons/contact.svg" bg="var(--acc-2)" hBg="" c="" hL="1" />
                 </div>
-                <a href={currentPage.startsWith("/about") ? "#appointment" : "/#contact-us"} className={`nav-link-pc nav-link font-semibold lg:font-normal lg:text-[var(--t-c-l)] lg:hover:text-[var(--bg-w)] text-[var(--t-c-d)] hover:text-[var(--acc-3)] duration-300 relative`}>Contact Us</a>
+                <Link to="/contact" className={`nav-link-pc nav-link font-semibold lg:font-normal ${currentPage.startsWith("/contact") ? "active lg:text-[var(--bg-w)] text-[var(--acc-2)]" : "lg:text-[var(--t-c-l)] lg:hover:text-[var(--bg-w)] text-[var(--t-c-d)] hover:text-[var(--acc-3)] duration-300"} relative`}>Contact Us</Link>
               </div>
             </div>
 

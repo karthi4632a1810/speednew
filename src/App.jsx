@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { Toaster } from 'react-hot-toast'
 import Home from './pages/Home'
 import AboutDoctor from './pages/AboutDoctor'
+import Contact from './pages/Contact'
 import Header from './components/Header'
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
             <Route path="/about" element={<AboutDoctor />} />
             <Route path="/about-doctor" element={<AboutDoctor />} />
             <Route path="/profile" element={<AboutDoctor />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/contact-us" element={<Contact />} />
           </Routes>
         </main>
       </div>

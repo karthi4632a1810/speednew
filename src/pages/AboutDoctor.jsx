@@ -91,6 +91,7 @@ function AboutDoctor() {
                                 <li><a href="#village" className="hover:text-[var(--acc-1)] transition-colors">SPEED Medical Village</a></li>
                                 <li><a href="#digital" className="hover:text-[var(--acc-1)] transition-colors">DOPAMINE Digital Platform</a></li>
                                 <li><a href="#milestones" className="hover:text-[var(--acc-1)] transition-colors">Career Trajectory (2001-2026)</a></li>
+                                <li><a href="/contact" className="hover:text-[var(--acc-1)] transition-colors font-semibold text-[var(--acc-1)]">Hospital Contact & Map →</a></li>
                             </ul>
                         </div>
 
@@ -102,7 +103,7 @@ function AboutDoctor() {
                             <div className="space-y-3 text-white/80">
                                 <p className="leading-relaxed">
                                     <strong className="text-white block">SPEED Multi Speciality Hospital</strong>
-                                    24J6+XQ9, Mangadu Rd, Padmavathi Nagar, Mangadu, Chennai - 600122
+                                    494, Kundrathur Main Rd, Padmavathi Nagar, Kamatchiamman Nagar, Mangadu, Tamil Nadu 600122
                                 </p>
                                 <p>
                                     <strong className="text-white">Emergency Hotline:</strong>{" "}

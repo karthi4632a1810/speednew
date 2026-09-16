@@ -56,10 +56,10 @@ function Footer() {
                   <h2 className='text-[var(--t-c-l)] font-bold tracking-[1px] text-[1.22em] fh-text relative leading-6'>Useful  Links</h2>
                   <div className='footer-link mt-8 flex flex-col gap-3'>
                     <a className='text-[var(--t-c-l)] text-[1.07em] tracking-[.5px] fl-text relative' href="/">Home</a>
-                    <a className='text-[var(--t-c-l)] text-[1.07em] tracking-[.5px] fl-text relative' href="/">About Speed</a>
-                    <a className='text-[var(--t-c-l)] text-[1.07em] tracking-[.5px] fl-text relative' href="/">Courses</a>
-                    <a className='text-[var(--t-c-l)] text-[1.07em] tracking-[.5px] fl-text relative' href="/">Blog</a>
-                    <a className='text-[var(--t-c-l)] text-[1.07em] tracking-[.5px] fl-text relative' href="/">Contact Us</a>
+                    <a className='text-[var(--t-c-l)] text-[1.07em] tracking-[.5px] fl-text relative' href="/about">About Doctor</a>
+                    <a className='text-[var(--t-c-l)] text-[1.07em] tracking-[.5px] fl-text relative' href="/#why-choose">Clinical Expertise</a>
+                    <a className='text-[var(--t-c-l)] text-[1.07em] tracking-[.5px] fl-text relative' href="/#surgery">Cardiac Surgery</a>
+                    <a className='text-[var(--t-c-l)] text-[1.07em] tracking-[.5px] fl-text relative' href="/contact">Contact Us</a>
                   </div>
                 </div>
               </div>
@@ -149,9 +149,9 @@ function Footer() {
             <div className='lg:col-span-3 col-span-12'>
               <div className='flex items-center gap-3 sm:px-5 px-3 py-4 h-full lg:justify-center xl:text-[16px] lg:text-[12px]'>
                 <MaskImage w='1.5em' h='1.5em' url="/icons/map.svg" bg="var(--s-c)" hBg="" c="flex-shrink-0" hL="1" />
-                <p className='text-[.75em] text-[var(--t-c-l)]'>24J6+XQ9, Mangadu Rd,
+                <p className='text-[.75em] text-[var(--t-c-l)] leading-relaxed'>494, Kundrathur Main Rd,
                   Padmavathi Nagar, Kamatchiamman Nagar,
-                  Mangadu, Chennai- 600122</p>
+                  Mangadu, Tamil Nadu 600122</p>
               </div>
             </div>
           </div>
