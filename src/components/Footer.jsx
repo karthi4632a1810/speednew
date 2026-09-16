@@ -29,10 +29,10 @@ function Footer() {
             <div className='lg:col-span-3 md:col-span-4 sm:col-span-6 col-span-12 sm:mb-10 mb-16 lg:mb-0'>
               <div className='flex flex-col text-[16px]'>
                 <div className='w-[210px] mb-9'>
-                  <img className='w-full' src="/logo/l-w.png" alt="logo" />
+                  <img className='w-full' src="/logo/logo.png" alt="SPEED Multi Speciality Hospital" />
                 </div>
-                <p className='text-[var(--t-c-l)] opacity-90 text-[.95em]'>A bunch of high-end Super Specialty courses for MD and MS Graduates
-                  to hone their skills in a particular specialization</p>
+                <p className='text-[var(--t-c-l)] font-semibold text-[1.1em] mb-2'>SPEED Multi Speciality Hospital</p>
+                <p className='text-[var(--t-c-l)] opacity-90 text-[.95em]'>Dedicated to cardiothoracic excellence, round-the-clock emergency medical response, and world-class healthcare delivery under the leadership of Dr. K. Vinayak Senthil.</p>
                 <div className='flex gap-3 items-center mt-10'>
                   <div className='bg-[#ffffff10] w-[2.85em] text-[16px] aspect-square flex justify-center items-center shadow-[0px_0px_10px_rgba(0,0,0,0.1)] backdrop-blur'>
                     <MaskImage w='1.1em' h='1.1em' url="/icons/facebook.svg" bg="var(--bg-w)" hBg="" c="translate-x-[2px]" hL="1" />
