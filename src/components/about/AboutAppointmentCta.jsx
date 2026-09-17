@@ -106,30 +106,51 @@ function AboutAppointmentCta() {
                                 </p>
 
                                 {/* Contact Details List */}
-                                <div className="mt-8 space-y-5 text-sm">
-                                    <a href="tel:9840077508" className="flex items-start gap-3.5 group">
+                                <div className="mt-8 space-y-4 text-sm">
+                                    <div className="flex items-start gap-3.5 group">
                                         <div className="w-10 h-10 rounded-xl bg-white/10 group-hover:bg-white/20 flex items-center justify-center flex-shrink-0 transition-colors">
                                             <MaskImage w="1.3em" h="1.3em" url="/icons/call.svg" bg="var(--bg-w)" hBg="" c="" hL="1" />
                                         </div>
                                         <div>
-                                            <span className="text-white/60 text-xs block">Emergency & Consultation Hotline</span>
-                                            <span className="font-semibold text-white tracking-wide text-base group-hover:text-[var(--acc-1)] transition-colors">
-                                                +91 98400 77508
+                                            <span className="text-white/60 text-xs block">Hotline & Consultation Lines</span>
+                                            <div className="flex flex-wrap items-center gap-2 mt-0.5">
+                                                <a href="tel:9840077508" className="font-semibold text-white tracking-wide text-base hover:text-[var(--acc-1)] transition-colors">
+                                                    +91 98400 77508
+                                                </a>
+                                                <span className="text-white/40">|</span>
+                                                <a href="tel:8015932591" className="font-medium text-white/90 text-sm hover:text-[var(--acc-1)] transition-colors">
+                                                    +91 80159 32591
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <a href="https://wa.me/919840077508?text=Hello%20Dr.%20Vinayak%20Senthil%20Team%2C%20I%20would%20like%20to%20inquire%20about%20a%20consultation." target="_blank" rel="noreferrer" className="flex items-start gap-3.5 group">
+                                        <div className="w-10 h-10 rounded-xl bg-[#25D366]/20 group-hover:bg-[#25D366]/30 flex items-center justify-center flex-shrink-0 transition-colors">
+                                            <MaskImage w="1.3em" h="1.3em" url="/icons/whatsapp.svg" bg="#25D366" hBg="" c="" hL="1" />
+                                        </div>
+                                        <div>
+                                            <span className="text-white/60 text-xs block">Direct WhatsApp Chat</span>
+                                            <span className="font-semibold text-[#2BEFAD] group-hover:underline text-sm block mt-0.5">
+                                                Chat with Dr. Senthil's Coordinator ↗
                                             </span>
                                         </div>
                                     </a>
 
-                                    <a href="mailto:Support@speedlearningapp.com" className="flex items-start gap-3.5 group">
+                                    <div className="flex items-start gap-3.5 group">
                                         <div className="w-10 h-10 rounded-xl bg-white/10 group-hover:bg-white/20 flex items-center justify-center flex-shrink-0 transition-colors">
                                             <MaskImage w="1.3em" h="1.3em" url="/icons/mail.svg" bg="var(--bg-w)" hBg="" c="" hL="1" />
                                         </div>
                                         <div>
-                                            <span className="text-white/60 text-xs block">Official Email</span>
-                                            <span className="font-semibold text-white group-hover:text-[var(--acc-1)] transition-colors">
-                                                Support@speedlearningapp.com
-                                            </span>
+                                            <span className="text-white/60 text-xs block">Official Email Addresses</span>
+                                            <a href="mailto:support@speedlearningapp.com" className="font-semibold text-white group-hover:text-[var(--acc-1)] transition-colors block text-xs sm:text-sm">
+                                                support@speedlearningapp.com
+                                            </a>
+                                            <a href="mailto:info@speedhospitals.com" className="text-white/70 hover:text-[var(--acc-1)] transition-colors block text-xs mt-0.5">
+                                                info@speedhospitals.com
+                                            </a>
                                         </div>
-                                    </a>
+                                    </div>
 
                                     <div className="flex items-start gap-3.5">
                                         <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center flex-shrink-0">
@@ -138,7 +159,7 @@ function AboutAppointmentCta() {
                                         <div>
                                             <span className="text-white/60 text-xs block">Hospital Location</span>
                                             <span className="font-medium text-white/90 text-xs leading-relaxed block mt-0.5">
-                                                24J6+XQ9, Mangadu Rd, Padmavathi Nagar, Mangadu, Chennai - 600122
+                                                494, Kundrathur Main Rd, Mangadu, Chennai - 600122
                                             </span>
                                         </div>
                                     </div>
@@ -148,11 +169,28 @@ function AboutAppointmentCta() {
                                             <MaskImage w="1.3em" h="1.3em" url="/icons/time.svg" bg="var(--bg-w)" hBg="" c="" hL="1" />
                                         </div>
                                         <div>
-                                            <span className="text-white/60 text-xs block">Consultation Hours</span>
+                                            <span className="text-white/60 text-xs block">Consultation & Casualty</span>
                                             <span className="font-medium text-white/90 text-xs block mt-0.5">
-                                                Mon - Sun: 9:00 AM - 10:00 PM
+                                                OPD: 9 AM - 10 PM • 24/7 Cardiac Emergency
                                             </span>
                                         </div>
+                                    </div>
+
+                                    {/* Social media icons pill */}
+                                    <div className="pt-2 flex items-center gap-2.5">
+                                        <span className="text-white/60 text-xs">Official Media:</span>
+                                        <a href="https://www.youtube.com/@SpeedLearningApp" target="_blank" rel="noreferrer" title="YouTube Masterclasses" className="w-8 h-8 rounded-full bg-white/10 hover:bg-[#FF0000] flex items-center justify-center transition-all hover:scale-110">
+                                            <MaskImage w="0.9em" h="0.9em" url="/icons/youtube.svg" bg="var(--bg-w)" hBg="" c="" hL="1" />
+                                        </a>
+                                        <a href="https://www.facebook.com/speedlearningapp/" target="_blank" rel="noreferrer" title="Facebook - SPEED" className="w-8 h-8 rounded-full bg-white/10 hover:bg-[#1877F2] flex items-center justify-center transition-all hover:scale-110">
+                                            <MaskImage w="0.9em" h="0.9em" url="/icons/facebook.svg" bg="var(--bg-w)" hBg="" c="" hL="1" />
+                                        </a>
+                                        <a href="https://www.instagram.com/speedlearningapp/" target="_blank" rel="noreferrer" title="Instagram - SPEED" className="w-8 h-8 rounded-full bg-white/10 hover:bg-[#E1306C] flex items-center justify-center transition-all hover:scale-110">
+                                            <MaskImage w="0.9em" h="0.9em" url="/icons/instagram.svg" bg="var(--bg-w)" hBg="" c="" hL="1" />
+                                        </a>
+                                        <a href="https://www.linkedin.com/company/speed-medical-centre/" target="_blank" rel="noreferrer" title="LinkedIn - SPEED Medical Centre" className="w-8 h-8 rounded-full bg-white/10 hover:bg-[#0A66C2] flex items-center justify-center transition-all hover:scale-110">
+                                            <MaskImage w="0.9em" h="0.9em" url="/icons/linkedin.svg" bg="var(--bg-w)" hBg="" c="" hL="1" />
+                                        </a>
                                     </div>
                                 </div>
                             </div>

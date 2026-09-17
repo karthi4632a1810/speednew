@@ -79,21 +79,46 @@ function Cta() {
                                     <h6 className='text-[var(--t-c-l)] mt-5 text-[.9em] pb-7'>Committed to precision, compassion, and advanced cardiac treatment.</h6>
                                     <MaskImage w='100%' h='1.2em' url="/com/2.png" bg="var(--bg-w)" hBg="" hL="1" />
                                 </div>
-                                <div className='flex flex-col font-pt-san gap-5 lg:text-[18px] pt-7'>
-                                    <h2 className='text-[var(--t-c-l)] font-semibold text-[1.1em]'>Hospital/Clinic Details</h2>
-                                    <a href='tel:9840077508' className='flex gap-3'>
-                                        <MaskImage w='1.2em' h='1.2em' url="/icons/call.svg" bg="var(--bg-w)" hBg="" c="flex-shrink-0" hL="1" />
-                                        <span className='text-[var(--t-c-l)] font-normal text-[.95em] tracking-[1px] leading-5'>+91 98400 77508 </span>
-                                    </a>
-                                    <a href='mailto:Support@speedlearningapp.com' className='flex gap-3'>
-                                        <MaskImage w='1.2em' h='1.2em' url="/icons/mail.svg" bg="var(--bg-w)" hBg="" c="flex-shrink-0" hL="1" />
-                                        <span className='text-[var(--t-c-l)] font-normal text-[.95em] tracking-[1px] leading-5'>Support@speedlearningapp.com </span>
-                                    </a>
+                                <div className='flex flex-col font-pt-san gap-4 lg:text-[18px] pt-7'>
+                                    <h2 className='text-[var(--t-c-l)] font-semibold text-[1.1em]'>Hospital & Consultation Details</h2>
+                                    <div className='flex gap-3 items-start'>
+                                        <MaskImage w='1.2em' h='1.2em' url="/icons/call.svg" bg="var(--bg-w)" hBg="" c="flex-shrink-0 mt-1" hL="1" />
+                                        <div className='flex flex-col'>
+                                            <a href='tel:9840077508' className='text-[var(--t-c-l)] font-semibold text-[.95em] tracking-[1px] leading-5 hover:underline'>+91 98400 77508</a>
+                                            <a href='tel:8015932591' className='text-white/80 font-normal text-[.85em] tracking-[1px] leading-5 hover:underline mt-0.5'>+91 80159 32591 (Hospital Desk)</a>
+                                        </div>
+                                    </div>
+                                    <div className='flex gap-3 items-start'>
+                                        <MaskImage w='1.2em' h='1.2em' url="/icons/mail.svg" bg="var(--bg-w)" hBg="" c="flex-shrink-0 mt-1" hL="1" />
+                                        <div className='flex flex-col'>
+                                            <a href='mailto:support@speedlearningapp.com' className='text-[var(--t-c-l)] font-normal text-[.95em] tracking-[1px] leading-5 hover:underline'>support@speedlearningapp.com</a>
+                                            <a href='mailto:info@speedhospitals.com' className='text-white/80 font-normal text-[.85em] tracking-[1px] leading-5 hover:underline mt-0.5'>info@speedhospitals.com</a>
+                                        </div>
+                                    </div>
                                     <div className='flex gap-3'>
                                         <MaskImage w='1.2em' h='1.2em' url="/icons/map.svg" bg="var(--bg-w)" hBg="" c="flex-shrink-0" hL="1" />
                                         <span className='text-[var(--t-c-l)] font-normal text-[.95em] tracking-[1px] leading-relaxed'>494, Kundrathur Main Rd,
                                             Padmavathi Nagar, Kamatchiamman Nagar,
                                             Mangadu, Tamil Nadu 600122 </span>
+                                    </div>
+
+                                    {/* Social Channels */}
+                                    <div className='flex gap-2.5 items-center mt-2 flex-wrap'>
+                                        <a href="https://www.facebook.com/speedlearningapp/" target="_blank" rel="noreferrer" title="Facebook" className='w-8 h-8 rounded-full bg-white/10 hover:bg-[#1877F2] flex items-center justify-center transition-all hover:scale-110'>
+                                            <MaskImage w='0.9em' h='0.9em' url="/icons/facebook.svg" bg="var(--bg-w)" hBg="" c="" hL="1" />
+                                        </a>
+                                        <a href="https://wa.me/919840077508" target="_blank" rel="noreferrer" title="WhatsApp" className='w-8 h-8 rounded-full bg-white/10 hover:bg-[#25D366] flex items-center justify-center transition-all hover:scale-110'>
+                                            <MaskImage w='0.9em' h='0.9em' url="/icons/whatsapp.svg" bg="var(--bg-w)" hBg="" c="" hL="1" />
+                                        </a>
+                                        <a href="https://www.instagram.com/speedlearningapp/" target="_blank" rel="noreferrer" title="Instagram" className='w-8 h-8 rounded-full bg-white/10 hover:bg-[#E1306C] flex items-center justify-center transition-all hover:scale-110'>
+                                            <MaskImage w='0.9em' h='0.9em' url="/icons/instagram.svg" bg="var(--bg-w)" hBg="" c="" hL="1" />
+                                        </a>
+                                        <a href="https://www.youtube.com/@SpeedLearningApp" target="_blank" rel="noreferrer" title="YouTube" className='w-8 h-8 rounded-full bg-white/10 hover:bg-[#FF0000] flex items-center justify-center transition-all hover:scale-110'>
+                                            <MaskImage w='0.9em' h='0.9em' url="/icons/youtube.svg" bg="var(--bg-w)" hBg="" c="" hL="1" />
+                                        </a>
+                                        <a href="https://www.linkedin.com/company/speed-medical-centre/" target="_blank" rel="noreferrer" title="LinkedIn" className='w-8 h-8 rounded-full bg-white/10 hover:bg-[#0A66C2] flex items-center justify-center transition-all hover:scale-110'>
+                                            <MaskImage w='0.9em' h='0.9em' url="/icons/linkedin.svg" bg="var(--bg-w)" hBg="" c="" hL="1" />
+                                        </a>
                                     </div>
                                 </div>
                             </div>

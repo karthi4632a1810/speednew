@@ -27,52 +27,60 @@ function FourPillars() {
                 "Minimally invasive & valve repair procedures",
                 "Multidisciplinary teamwork & evidence-based protocols"
             ],
-            anchor: "#clinical"
+            anchor: "#clinical",
+            externalUrl: "https://speedhospitals.com/",
+            externalLabel: "Visit SPEED Hospital"
         },
         {
             number: "02",
-            title: "Medical Educator",
-            subtitle: "Founder, SPEED Medical Institute",
-            badge: "Academic Leadership",
+            title: "Medical Educator & Founder",
+            subtitle: "SPEED Medical Institute & Learning App",
+            badge: "⚡ FLAGSHIP #1 • 35,000+ DM/MCh SELECTIONS",
             icon: "/icons/course.svg",
-            gradient: "from-[#134175] to-[#1E2D52]",
-            description: "Pioneered structured coaching systems for NEET-PG, INI-CET, FMGE, and NEET-SS since founding SPEED Medical Institute in 2002.",
+            gradient: "from-[#002B49] to-[#046BC0]",
+            description: "Pioneered structured super-specialty coaching since 2002. Creator of the Speed Learning App, India's undisputed leader for DM & MCh entrance preparation.",
             points: [
-                "23+ years training postgraduate aspirants",
-                "100 NEET instruction centres with Tamil Nadu Govt (2017)",
-                "5-point educational signature linking theory to practice"
+                "25+ years mentoring postgraduate aspirants",
+                "Speed Learning App: India's #1 NEET SS Training App",
+                "35,000+ Super-Specialty DM & MCh selections nationwide"
             ],
-            anchor: "#education"
+            anchor: "#education",
+            externalUrl: "https://speedlearningapp.com/",
+            externalLabel: "Open Speed Learning App"
         },
         {
             number: "03",
             title: "Ecosystem Builder",
-            subtitle: "SPEED Medical Village",
-            badge: "Immersive Learning",
+            subtitle: "SPEED Medical Village (125 Acres)",
+            badge: "125-Acre Retreat Sanctuary",
             icon: "/icons/home.svg",
             gradient: "from-[#046BC0] to-[#2AD2C1]",
-            description: "Translating educational philosophy into physical reality: a 125-acre eco-friendly residential medical learning campus in Kanchipuram.",
+            description: "Translating educational philosophy into physical reality: a 125-acre eco-friendly residential medical campus in Kanchipuram eliminating digital burnout.",
             points: [
-                "High-accountability, distraction-free environment",
-                "24/7 air-conditioned study hall and modern labs",
-                "Holistic routine balancing academics, wellness & peers"
+                "Exclusive home to India’s First Dopamine Residential Retreat (CMR 2.0)",
+                "24/7 monitored study halls, organic food & serene environment",
+                "Holistic daily rhythm balancing academics, yoga & peer growth"
             ],
-            anchor: "#village"
+            anchor: "#village",
+            externalUrl: "https://dopaminemed.com/residential-neet-pg-inicet-pg-fmge/",
+            externalLabel: "Dopamine Retreat (CMR 2.0)"
         },
         {
             number: "04",
-            title: "Digital Innovator",
-            subtitle: "Mentor, DOPAMINE Learning App",
-            badge: "Digital Medical Education",
+            title: "Digital Pioneer & Mentor",
+            subtitle: "DOPAMINE Medical Learning App",
+            badge: "🧬 FLAGSHIP #2 • THE JOY OF MEDICINE",
             icon: "/icons/ai.svg",
-            gradient: "from-[#6D7FF7] to-[#68C6F4]",
-            description: "Empowering hundreds of thousands of medical students through DOPAMINE's CBME-integrated platform, interactive Q-banks, and video recall sessions.",
+            gradient: "from-[#4C1D95] to-[#7C3AED]",
+            description: "Revolutionizing undergraduate and postgraduate medical preparation through DOPAMINE's CBME-integrated platform, interactive Q-Banks, and direct faculty mentorship.",
             points: [
                 "3.5 Lakh+ doctors trained across platforms",
-                "High-yield 'Jewel of the Day' surgery clinical videos",
-                "Personalized mentorship focused on mindset and strategy"
+                "The Joy of Medicine for MBBS, NEET PG, INICET & FMGE",
+                "Direct mentorship with Dr. Vinayak Senthil & elite faculty"
             ],
-            anchor: "#digital"
+            anchor: "#digital",
+            externalUrl: "https://dopaminemed.com/index",
+            externalLabel: "Explore DOPAMINE App"
         }
     ];
 
@@ -100,19 +108,19 @@ function FourPillars() {
                         The Four Connected Pillars of <span className="t-g-1">Dr. Vinayak Senthil</span>
                     </h2>
                     <p className="mt-4 text-gray-600 text-sm sm:text-base leading-relaxed">
-                        A career positioned at the high-impact convergence of clinical patient care, structured medical coaching, immersive residential ecosystems, and modern digital healthcare education.
+                        An interconnected leadership ecosystem uniting hospital surgical care, nationwide medical competitive coaching, immersive residential preparation, and scalable digital edtech.
                     </p>
                     <div className="mt-3">
-                        <MaskImage w="120px" h="12px" url="/com/2.png" bg="var(--acc-3)" hBg="" c="" hL="1" />
+                        <MaskImage w="140px" h="12px" url="/com/1.png" bg="var(--acc-3)" hBg="" c="" hL="1" />
                     </div>
                 </motion.div>
 
-                {/* 4 Cards Grid */}
-                <motion.div
-                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 mt-16"
+                {/* Four Cards Grid */}
+                <motion.div 
+                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-14"
                     initial="hidden"
                     whileInView="visible"
-                    viewport={{ once: true, amount: 0.15 }}
+                    viewport={{ once: true, amount: 0.2 }}
                     variants={{
                         visible: { transition: { staggerChildren: 0.15 } }
                     }}
@@ -121,30 +129,29 @@ function FourPillars() {
                         <motion.div
                             key={idx}
                             variants={cardVariants}
-                            whileHover={{ y: -8 }}
-                            className="bg-white rounded-2xl p-6 sm:p-7 shadow-[0_10px_30px_rgba(0,32,59,0.06)] border border-slate-100 flex flex-col justify-between transition-all duration-300 relative group overflow-hidden"
+                            className="bg-white rounded-3xl p-6 border border-slate-100 shadow-[0_4px_25px_rgba(0,0,0,0.05)] hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col justify-between group relative overflow-hidden"
                         >
-                            {/* Top decorative gradient bar */}
+                            {/* Card Accent Top Bar */}
                             <div className={`absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r ${pillar.gradient}`} />
 
                             <div>
-                                {/* Header Row */}
-                                <div className="flex items-center justify-between mb-5">
-                                    <div className="w-12 h-12 rounded-xl bg-[#0058A1]/10 flex items-center justify-center group-hover:bg-[var(--acc-3)] transition-colors duration-300">
-                                        <MaskImage w="1.6em" h="1.6em" url={pillar.icon} bg="var(--acc-3)" hBg="#ffffff" c="duration-300 group-hover-white group-hover:!bg-white" hL="group" />
-                                    </div>
-                                    <span className="font-pt-san font-bold text-3xl text-slate-200 group-hover:text-[var(--acc-1)] transition-colors duration-300">
+                                {/* Number & Icon Header */}
+                                <div className="flex items-center justify-between mb-5 pt-1">
+                                    <span className="font-pt-san font-extrabold text-2xl sm:text-3xl text-slate-200 group-hover:text-[var(--acc-3)] transition-colors">
                                         {pillar.number}
                                     </span>
+                                    <div className="w-12 h-12 rounded-2xl bg-blue-50/80 flex items-center justify-center text-[var(--acc-3)] group-hover:bg-[var(--acc-3)] transition-colors">
+                                        <MaskImage w="1.4em" h="1.4em" url={pillar.icon} bg="var(--acc-3)" hBg="#ffffff" c="duration-300 group-hover:!bg-white" hL="group" />
+                                    </div>
                                 </div>
 
-                                {/* Badge */}
-                                <span className="inline-block px-2.5 py-1 rounded-md text-[11px] font-semibold tracking-wide bg-blue-50 text-[var(--acc-3)] mb-3">
+                                {/* Category Badge */}
+                                <span className="inline-block text-[11px] font-bold uppercase tracking-wider text-[var(--acc-3)] bg-blue-50 px-2.5 py-0.5 rounded-full mb-2.5">
                                     {pillar.badge}
                                 </span>
 
-                                {/* Titles */}
-                                <h3 className="text-xl font-bold text-[var(--t-c-d)] font-pt-san leading-snug group-hover:text-[var(--acc-3)] transition-colors">
+                                {/* Title */}
+                                <h3 className="text-xl font-bold font-pt-san text-[var(--t-c-d)] leading-tight">
                                     {pillar.title}
                                 </h3>
                                 <p className="text-xs font-semibold text-[var(--acc-2)]/80 mt-1">
@@ -167,14 +174,23 @@ function FourPillars() {
                                 </ul>
                             </div>
 
-                            {/* Card Action Link */}
-                            <div className="mt-6 pt-3">
+                            {/* Card Action Links: In-page + Direct External Link */}
+                            <div className="mt-6 pt-4 border-t border-slate-100 flex flex-col gap-2">
+                                <a 
+                                    href={pillar.externalUrl} 
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="w-full py-2 px-3 rounded-lg bg-slate-900 hover:bg-[var(--acc-3)] text-white text-[11px] font-bold uppercase tracking-wider text-center flex items-center justify-center gap-1.5 transition-colors shadow-sm"
+                                >
+                                    <span>{pillar.externalLabel}</span>
+                                    <span>↗</span>
+                                </a>
                                 <a 
                                     href={pillar.anchor} 
-                                    className="inline-flex items-center gap-2 text-xs font-bold text-[var(--acc-3)] group-hover:text-[var(--acc-2)] group-hover:translate-x-1 transition-all"
+                                    className="inline-flex items-center justify-center gap-1 text-[11px] font-semibold text-slate-500 hover:text-[var(--acc-3)] transition-colors py-1"
                                 >
-                                    <span>Explore Section</span>
-                                    <span>→</span>
+                                    <span>Read Details</span>
+                                    <span>↓</span>
                                 </a>
                             </div>
                         </motion.div>

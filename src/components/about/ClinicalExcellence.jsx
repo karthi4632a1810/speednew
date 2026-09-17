@@ -132,13 +132,24 @@ function ClinicalExcellence() {
 
                             {/* Prominent High-Contrast Card Panel */}
                             <div className="absolute bottom-4 left-4 right-4 sm:bottom-6 sm:left-6 sm:right-6 p-5 sm:p-6 rounded-2xl bg-[#001529]/95 backdrop-blur-xl border border-white/20 shadow-[0_15px_35px_rgba(0,0,0,0.6)] text-white z-10">
-                                <div className="flex flex-wrap items-center gap-2 mb-2">
-                                    <span className="px-3 py-1 rounded-full bg-[var(--acc-7)] text-white text-[11px] font-bold uppercase tracking-wider shadow-sm">
-                                        SPEED Multi Speciality Hospital
-                                    </span>
-                                    <span className="px-2.5 py-0.5 rounded-full bg-white/15 text-[var(--acc-1)] text-[11px] font-semibold backdrop-blur-sm">
-                                        Mangadu, Chennai
-                                    </span>
+                                <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
+                                    <div className="flex items-center gap-2">
+                                        <span className="px-3 py-1 rounded-full bg-[var(--acc-7)] text-white text-[11px] font-bold uppercase tracking-wider shadow-sm">
+                                            SPEED Multi Speciality Hospital
+                                        </span>
+                                        <span className="px-2.5 py-0.5 rounded-full bg-white/15 text-[var(--acc-1)] text-[11px] font-semibold backdrop-blur-sm">
+                                            Mangadu, Chennai
+                                        </span>
+                                    </div>
+                                    <a
+                                        href="https://speedhospitals.com/"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className="text-[11px] font-bold text-[var(--acc-1)] hover:underline flex items-center gap-1"
+                                    >
+                                        <span>speedhospitals.com</span>
+                                        <span>↗</span>
+                                    </a>
                                 </div>
                                 <h3 className="text-xl sm:text-2xl font-bold font-pt-san text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">
                                     Cardiothoracic Surgery & Care
@@ -148,7 +159,14 @@ function ClinicalExcellence() {
                                 </p>
                                 <div className="mt-3 pt-3 border-t border-white/15 flex items-center justify-between text-xs text-slate-300">
                                     <span>TNMC Registration No: <strong className="text-white">67377</strong></span>
-                                    <span className="text-[var(--acc-1)] font-semibold">Practicing Consultant</span>
+                                    <a
+                                        href="https://speedhospitals.com/"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className="px-3 py-1 rounded-lg bg-[var(--acc-7)] hover:bg-red-600 text-white font-semibold text-[11px] transition-colors shadow"
+                                    >
+                                        Visit Hospital →
+                                    </a>
                                 </div>
                             </div>
                         </div>

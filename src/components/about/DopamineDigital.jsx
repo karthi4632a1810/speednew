@@ -108,14 +108,34 @@ function DopamineDigital() {
                             ))}
                         </div>
 
-                        {/* App Download Links */}
-                        <div className="mt-8 pt-6 border-t border-slate-200 flex flex-wrap items-center gap-4">
-                            <span className="text-xs font-semibold text-gray-500">Available across devices:</span>
-                            <div className="flex gap-3 items-center">
-                                <div className="h-9 shadow-sm hover:scale-105 transition-transform cursor-pointer">
+                        {/* App Download Links & Official Web Portal */}
+                        <div className="mt-8 pt-6 border-t border-slate-200 flex flex-wrap items-center justify-between gap-4">
+                            <div className="flex items-center gap-3">
+                                <a 
+                                    href="https://dopaminemed.com/index" 
+                                    target="_blank" 
+                                    rel="noreferrer"
+                                    className="px-5 py-2.5 rounded-xl bg-purple-600 hover:bg-purple-700 text-white font-semibold text-xs sm:text-sm flex items-center gap-2 shadow-md transition-all hover:scale-105"
+                                >
+                                    <span>Visit dopaminemed.com</span>
+                                    <span>↗</span>
+                                </a>
+                                <a 
+                                    href="https://dopaminemed.com/residential-neet-pg-inicet-pg-fmge/" 
+                                    target="_blank" 
+                                    rel="noreferrer"
+                                    className="px-4 py-2.5 rounded-xl bg-white border border-slate-200 hover:border-purple-300 text-slate-700 font-semibold text-xs transition-colors"
+                                >
+                                    <span>Residential Retreat</span>
+                                </a>
+                            </div>
+
+                            <div className="flex gap-2 items-center">
+                                <span className="text-[11px] font-semibold text-gray-400">Apps:</span>
+                                <div className="h-8 shadow-sm hover:scale-105 transition-transform cursor-pointer">
                                     <img className="h-full" src="/app/google-l.svg" alt="Google Play" />
                                 </div>
-                                <div className="h-9 shadow-sm hover:scale-105 transition-transform cursor-pointer">
+                                <div className="h-8 shadow-sm hover:scale-105 transition-transform cursor-pointer">
                                     <img className="h-full" src="/app/apple-l.svg" alt="App Store" />
                                 </div>
                             </div>
@@ -155,13 +175,24 @@ function DopamineDigital() {
 
                             {/* Prominent High-Contrast Card Panel */}
                             <div className="absolute bottom-4 left-4 right-4 sm:bottom-6 sm:left-6 sm:right-6 p-5 sm:p-6 rounded-2xl bg-[#001529]/95 backdrop-blur-xl border border-white/20 shadow-[0_15px_35px_rgba(0,0,0,0.6)] text-white z-10">
-                                <div className="flex flex-wrap items-center gap-2 mb-2">
-                                    <span className="px-3 py-1 rounded-full bg-[var(--acc-1)] text-slate-900 text-[11px] font-bold uppercase tracking-wider shadow-sm">
-                                        Digital Learning Ecosystem
-                                    </span>
-                                    <span className="px-2.5 py-0.5 rounded-full bg-white/15 text-[var(--acc-1)] text-[11px] font-semibold backdrop-blur-sm">
-                                        Mobile & Web
-                                    </span>
+                                <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
+                                    <div className="flex items-center gap-2">
+                                        <span className="px-3 py-1 rounded-full bg-[var(--acc-1)] text-slate-900 text-[11px] font-bold uppercase tracking-wider shadow-sm">
+                                            Digital Learning Ecosystem
+                                        </span>
+                                        <span className="px-2.5 py-0.5 rounded-full bg-white/15 text-[var(--acc-1)] text-[11px] font-semibold backdrop-blur-sm">
+                                            Mobile & Web
+                                        </span>
+                                    </div>
+                                    <a
+                                        href="https://dopaminemed.com/index"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className="text-[11px] font-bold text-[var(--acc-1)] hover:underline flex items-center gap-1"
+                                    >
+                                        <span>dopaminemed.com</span>
+                                        <span>↗</span>
+                                    </a>
                                 </div>
                                 <h4 className="text-xl sm:text-2xl font-bold font-pt-san text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">
                                     DOPAMINE Learning Platform
@@ -170,7 +201,7 @@ function DopamineDigital() {
                                     Interactive Q-banks, CBME-based curriculum, grand tests, and surgery video discussions for medical students nationwide.
                                 </p>
                                 <div className="mt-3 pt-3 border-t border-white/15 flex items-center justify-between text-xs text-slate-300">
-                                    <span>Concept-Based Learning</span>
+                                    <span>The Joy of Medicine</span>
                                     <span className="text-[var(--acc-1)] font-semibold">3.5L+ Doctors Trained</span>
                                 </div>
                             </div>
@@ -187,42 +218,62 @@ function DopamineDigital() {
                     viewport={{ once: true }}
                     variants={fadeUp}
                 >
-                    <div className="p-4 rounded-xl bg-white border border-slate-100 shadow-sm flex items-center gap-3.5">
-                        <div className="w-10 h-10 rounded-xl bg-red-50 text-red-600 flex items-center justify-center font-bold text-sm">
-                            YT
+                    <a 
+                        href="https://www.youtube.com/@SpeedLearningApp" 
+                        target="_blank" 
+                        rel="noreferrer" 
+                        className="p-4 rounded-xl bg-white border border-slate-100 shadow-sm flex items-center gap-3.5 hover:shadow-md hover:-translate-y-0.5 transition-all group"
+                    >
+                        <div className="w-10 h-10 rounded-xl bg-red-50 text-red-600 flex items-center justify-center font-bold text-sm group-hover:bg-red-600 group-hover:text-white transition-colors">
+                            <MaskImage w="1.2em" h="1.2em" url="/icons/youtube.svg" bg="#FF0000" hBg="" c="group-hover:bg-white" hL="1" />
                         </div>
                         <div>
-                            <h5 className="font-bold text-xs sm:text-sm text-[var(--t-c-d)]">YouTube Masterclasses</h5>
-                            <p className="text-[11px] text-gray-500">Recall sessions & strategy</p>
+                            <h5 className="font-bold text-xs sm:text-sm text-[var(--t-c-d)] group-hover:text-red-600 transition-colors">YouTube Masterclasses ↗</h5>
+                            <p className="text-[11px] text-gray-500">Surgery cases & strategy</p>
                         </div>
-                    </div>
-                    <div className="p-4 rounded-xl bg-white border border-slate-100 shadow-sm flex items-center gap-3.5">
-                        <div className="w-10 h-10 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center font-bold text-sm">
-                            LI
-                        </div>
-                        <div>
-                            <h5 className="font-bold text-xs sm:text-sm text-[var(--t-c-d)]">SPEED Medical Centre</h5>
-                            <p className="text-[11px] text-gray-500">Chennai HQ since 2002</p>
-                        </div>
-                    </div>
-                    <div className="p-4 rounded-xl bg-white border border-slate-100 shadow-sm flex items-center gap-3.5">
-                        <div className="w-10 h-10 rounded-xl bg-teal-50 text-teal-600 flex items-center justify-center font-bold text-sm">
-                            WB
+                    </a>
+                    <a 
+                        href="https://www.linkedin.com/company/speed-medical-centre/" 
+                        target="_blank" 
+                        rel="noreferrer" 
+                        className="p-4 rounded-xl bg-white border border-slate-100 shadow-sm flex items-center gap-3.5 hover:shadow-md hover:-translate-y-0.5 transition-all group"
+                    >
+                        <div className="w-10 h-10 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center font-bold text-sm group-hover:bg-[#0A66C2] group-hover:text-white transition-colors">
+                            <MaskImage w="1.2em" h="1.2em" url="/icons/linkedin.svg" bg="#0A66C2" hBg="" c="group-hover:bg-white" hL="1" />
                         </div>
                         <div>
-                            <h5 className="font-bold text-xs sm:text-sm text-[var(--t-c-d)]">National Webinars</h5>
-                            <p className="text-[11px] text-gray-500">NEET PG & INI-CET approach</p>
+                            <h5 className="font-bold text-xs sm:text-sm text-[var(--t-c-d)] group-hover:text-[#0A66C2] transition-colors">SPEED Medical Centre ↗</h5>
+                            <p className="text-[11px] text-gray-500">Official LinkedIn network</p>
                         </div>
-                    </div>
-                    <div className="p-4 rounded-xl bg-white border border-slate-100 shadow-sm flex items-center gap-3.5">
-                        <div className="w-10 h-10 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center font-bold text-sm">
-                            AP
+                    </a>
+                    <a 
+                        href="https://www.facebook.com/speedlearningapp/" 
+                        target="_blank" 
+                        rel="noreferrer" 
+                        className="p-4 rounded-xl bg-white border border-slate-100 shadow-sm flex items-center gap-3.5 hover:shadow-md hover:-translate-y-0.5 transition-all group"
+                    >
+                        <div className="w-10 h-10 rounded-xl bg-blue-50 text-[#1877F2] flex items-center justify-center font-bold text-sm group-hover:bg-[#1877F2] group-hover:text-white transition-colors">
+                            <MaskImage w="1.2em" h="1.2em" url="/icons/facebook.svg" bg="#1877F2" hBg="" c="group-hover:bg-white" hL="1" />
                         </div>
                         <div>
-                            <h5 className="font-bold text-xs sm:text-sm text-[var(--t-c-d)]">DOPAMINE Mobile App</h5>
-                            <p className="text-[11px] text-gray-500">Full MBBS curriculum prep</p>
+                            <h5 className="font-bold text-xs sm:text-sm text-[var(--t-c-d)] group-hover:text-[#1877F2] transition-colors">Facebook Community ↗</h5>
+                            <p className="text-[11px] text-gray-500">Live sessions & updates</p>
                         </div>
-                    </div>
+                    </a>
+                    <a 
+                        href="https://wa.me/919840077508" 
+                        target="_blank" 
+                        rel="noreferrer" 
+                        className="p-4 rounded-xl bg-white border border-slate-100 shadow-sm flex items-center gap-3.5 hover:shadow-md hover:-translate-y-0.5 transition-all group"
+                    >
+                        <div className="w-10 h-10 rounded-xl bg-emerald-50 text-[#25D366] flex items-center justify-center font-bold text-sm group-hover:bg-[#25D366] group-hover:text-white transition-colors">
+                            <MaskImage w="1.2em" h="1.2em" url="/icons/whatsapp.svg" bg="#25D366" hBg="" c="group-hover:bg-white" hL="1" />
+                        </div>
+                        <div>
+                            <h5 className="font-bold text-xs sm:text-sm text-[var(--t-c-d)] group-hover:text-[#25D366] transition-colors">Official WhatsApp ↗</h5>
+                            <p className="text-[11px] text-gray-500">+91 98400 77508</p>
+                        </div>
+                    </a>
                 </motion.div>
 
             </div>

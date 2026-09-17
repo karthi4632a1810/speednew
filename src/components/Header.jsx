@@ -54,19 +54,22 @@ function Header() {
 
               <div className='flex items-center gap-2'>
                 <div className="text-[var(--t-c-l)] font-semibold">Follow Us :</div>
-                <div className='flex  gap-2'>
-                  <div className='bg-[var(--bg-w)] p-[8px] rounded-full shadow-[0px_0px_10px_rgba(0,0,0,0.1)]'>
+                <div className='flex items-center gap-2'>
+                  <a href="https://www.facebook.com/speedlearningapp/" target="_blank" rel="noreferrer" title="Facebook - SPEED" className='bg-[var(--bg-w)] p-[8px] rounded-full shadow-[0px_0px_10px_rgba(0,0,0,0.1)] hover:scale-110 transition-transform'>
                     <MaskImage w='1em' h='1em' url="/icons/facebook.svg" bg="var(--acc-2)" hBg="" c="" hL="1" />
-                  </div>
-                  <div className='bg-[var(--bg-w)] p-[8px] rounded-full shadow-[0px_0px_10px_rgba(0,0,0,0.1)]'>
-                    <MaskImage w='1em' h='1em' url="/icons/whatsapp.svg" bg="var(--acc-2)" hBg="" c="" hL="1" />
-                  </div>
-                  <div className='bg-[var(--bg-w)] p-[8px] rounded-full shadow-[0px_0px_10px_rgba(0,0,0,0.1)]'>
-                    <MaskImage w='1em' h='1em' url="/icons/instagram.svg" bg="var(--acc-2)" hBg="" c="" hL="1" />
-                  </div>
-                  <div className='bg-[var(--bg-w)] p-[8px] rounded-full shadow-[0px_0px_10px_rgba(0,0,0,0.1)]'>
-                    <MaskImage w='1em' h='1em' url="/icons/x.svg" bg="var(--acc-2)" hBg="" c="" hL="1" />
-                  </div>
+                  </a>
+                  <a href="https://wa.me/919840077508" target="_blank" rel="noreferrer" title="WhatsApp - Dr. Vinayak Senthil" className='bg-[var(--bg-w)] p-[8px] rounded-full shadow-[0px_0px_10px_rgba(0,0,0,0.1)] hover:scale-110 transition-transform'>
+                    <MaskImage w='1em' h='1em' url="/icons/whatsapp.svg" bg="#25D366" hBg="" c="" hL="1" />
+                  </a>
+                  <a href="https://www.instagram.com/speedlearningapp/" target="_blank" rel="noreferrer" title="Instagram - SPEED" className='bg-[var(--bg-w)] p-[8px] rounded-full shadow-[0px_0px_10px_rgba(0,0,0,0.1)] hover:scale-110 transition-transform'>
+                    <MaskImage w='1em' h='1em' url="/icons/instagram.svg" bg="#E1306C" hBg="" c="" hL="1" />
+                  </a>
+                  <a href="https://www.youtube.com/@SpeedLearningApp" target="_blank" rel="noreferrer" title="YouTube Masterclasses - SPEED" className='bg-[var(--bg-w)] p-[8px] rounded-full shadow-[0px_0px_10px_rgba(0,0,0,0.1)] hover:scale-110 transition-transform'>
+                    <MaskImage w='1em' h='1em' url="/icons/youtube.svg" bg="#FF0000" hBg="" c="" hL="1" />
+                  </a>
+                  <a href="https://www.linkedin.com/company/speed-medical-centre/" target="_blank" rel="noreferrer" title="LinkedIn - SPEED Medical Centre" className='bg-[var(--bg-w)] p-[8px] rounded-full shadow-[0px_0px_10px_rgba(0,0,0,0.1)] hover:scale-110 transition-transform'>
+                    <MaskImage w='1em' h='1em' url="/icons/linkedin.svg" bg="#0A66C2" hBg="" c="" hL="1" />
+                  </a>
                 </div>
               </div>
             </div>
@@ -83,6 +86,13 @@ function Header() {
                   <MaskImage w='1em' h='1em' url="/icons/about.svg" bg="var(--acc-2)" hBg="" c="" hL="1" />
                 </div>
                 <Link to="/about" className={`nav-link-pc nav-link font-semibold lg:font-normal ${currentPage.startsWith("/about") || currentPage === "/profile" ? "active lg:text-[var(--bg-w)] text-[var(--acc-2)]" : "lg:text-[var(--t-c-l)] lg:hover:text-[var(--bg-w)] text-[var(--t-c-d)] hover:text-[var(--acc-3)] duration-300"} relative`}>About Doctor</Link>
+              </div>
+
+              <div onClick={() => { setIsMenuOpen(false); setDropdownOpen(null); }} className='py-3 flex lg:h-full items-center gap-2 border-b border-[#013d7220] lg:border-[transparent]'>
+                <a href="/#ecosystem" className="px-3.5 py-1.5 rounded-full bg-gradient-to-r from-[var(--acc-1)] via-[#2BEFAD] to-[var(--acc-1)] text-slate-900 font-extrabold text-[11px] 2xl:text-xs uppercase tracking-wider shadow-md hover:scale-105 hover:shadow-lg transition-all flex items-center gap-1.5 duration-300">
+                  <span className="w-1.5 h-1.5 rounded-full bg-slate-950 animate-ping"></span>
+                  <span>SPEED & DOPAMINE</span>
+                </a>
               </div>
 
               <div onClick={() => { setIsMenuOpen(false); setDropdownOpen(null); }} className='py-4 flex lg:h-full items-center gap-2 border-b border-[#013d7220] lg:border-[transparent]'>

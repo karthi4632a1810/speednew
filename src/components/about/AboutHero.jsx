@@ -43,8 +43,23 @@ function AboutHero() {
                                 Research-Backed Professional Profile
                             </span>
                             <span className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-[11px] sm:text-xs text-white/80">
-                                September 2026
+                                September 2026 Edition
                             </span>
+                        </motion.div>
+
+                        {/* Dual Flagship Founder Badge */}
+                        <motion.div variants={fadeUp} className="flex flex-wrap items-center gap-2 mb-3">
+                            <span className="px-3.5 py-1 rounded-full bg-[var(--acc-1)] text-slate-900 font-extrabold text-xs uppercase tracking-wider shadow-md">
+                                Founder & Chairman
+                            </span>
+                            <a href="/#ecosystem" className="px-3.5 py-1 rounded-full bg-blue-500/25 hover:bg-blue-500/40 border border-blue-400/40 text-[#2BEFAD] font-bold text-xs flex items-center gap-1.5 transition-colors">
+                                <span>⚡ SPEED (Hospital & App)</span>
+                                <span>↗</span>
+                            </a>
+                            <a href="/#ecosystem" className="px-3.5 py-1 rounded-full bg-purple-500/25 hover:bg-purple-500/40 border border-purple-400/40 text-pink-300 font-bold text-xs flex items-center gap-1.5 transition-colors">
+                                <span>🧬 DOPAMINE (App & Retreat)</span>
+                                <span>↗</span>
+                            </a>
                         </motion.div>
 
                         {/* Main Title */}
@@ -82,8 +97,8 @@ function AboutHero() {
                             Trained in cardiothoracic and vascular surgery with over 25 years of clinical and academic mastery. Leading patient care at SPEED Multi Speciality Hospital, super-specialty coaching via SPEED Medical Institute, 125-acre immersive learning at SPEED Medical Village, and high-impact digital education through DOPAMINE.
                         </motion.p>
 
-                        {/* CTA Buttons */}
-                        <motion.div variants={fadeUp} className="mt-8 flex flex-wrap items-center gap-4">
+                        {/* CTA Buttons & Social Connect */}
+                        <motion.div variants={fadeUp} className="mt-8 flex flex-wrap items-center gap-3.5">
                             <a 
                                 href="#appointment" 
                                 className="gra-6 px-6 sm:px-8 py-3.5 rounded-full text-white font-semibold text-sm sm:text-base shadow-[0_8px_20px_rgba(109,127,247,0.35)] hover:shadow-[0_12px_28px_rgba(109,127,247,0.5)] hover:-translate-y-0.5 transition-all duration-300 flex items-center gap-2.5"
@@ -92,12 +107,54 @@ function AboutHero() {
                                 <span>Book Consultation</span>
                             </a>
                             <a 
-                                href="#four-pillars" 
-                                className="px-6 sm:px-8 py-3.5 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/20 text-white font-semibold text-sm sm:text-base hover:-translate-y-0.5 transition-all duration-300 flex items-center gap-2.5 shadow-sm"
+                                href="https://wa.me/919840077508" 
+                                target="_blank"
+                                rel="noreferrer"
+                                className="px-5 sm:px-6 py-3.5 rounded-full bg-[#25D366]/20 hover:bg-[#25D366]/30 border border-[#25D366]/50 text-white font-semibold text-sm sm:text-base hover:-translate-y-0.5 transition-all duration-300 flex items-center gap-2.5 shadow-sm"
                             >
-                                <MaskImage w="1.1em" h="1.1em" url="/icons/speed.svg" bg="var(--bg-w)" hBg="" c="" hL="1" />
-                                <span>Explore Leadership</span>
+                                <MaskImage w="1.1em" h="1.1em" url="/icons/whatsapp.svg" bg="#25D366" hBg="" c="" hL="1" />
+                                <span>WhatsApp: +91 98400 77508</span>
                             </a>
+
+                            {/* Official Doctor & SPEED Media Channels */}
+                            <div className="flex items-center gap-2">
+                                <a 
+                                    href="https://www.youtube.com/@SpeedLearningApp" 
+                                    target="_blank" 
+                                    rel="noreferrer" 
+                                    title="YouTube Masterclasses - SPEED"
+                                    className="w-10 h-10 rounded-full bg-white/10 hover:bg-[#FF0000] border border-white/20 flex items-center justify-center transition-all hover:scale-110"
+                                >
+                                    <MaskImage w="1em" h="1em" url="/icons/youtube.svg" bg="var(--bg-w)" hBg="" c="" hL="1" />
+                                </a>
+                                <a 
+                                    href="https://www.facebook.com/speedlearningapp/" 
+                                    target="_blank" 
+                                    rel="noreferrer" 
+                                    title="Facebook - SPEED"
+                                    className="w-10 h-10 rounded-full bg-white/10 hover:bg-[#1877F2] border border-white/20 flex items-center justify-center transition-all hover:scale-110"
+                                >
+                                    <MaskImage w="1em" h="1em" url="/icons/facebook.svg" bg="var(--bg-w)" hBg="" c="" hL="1" />
+                                </a>
+                                <a 
+                                    href="https://www.instagram.com/speedlearningapp/" 
+                                    target="_blank" 
+                                    rel="noreferrer" 
+                                    title="Instagram - SPEED"
+                                    className="w-10 h-10 rounded-full bg-white/10 hover:bg-[#E1306C] border border-white/20 flex items-center justify-center transition-all hover:scale-110"
+                                >
+                                    <MaskImage w="1em" h="1em" url="/icons/instagram.svg" bg="var(--bg-w)" hBg="" c="" hL="1" />
+                                </a>
+                                <a 
+                                    href="https://www.linkedin.com/company/speed-medical-centre/" 
+                                    target="_blank" 
+                                    rel="noreferrer" 
+                                    title="LinkedIn - SPEED Medical Centre"
+                                    className="w-10 h-10 rounded-full bg-white/10 hover:bg-[#0A66C2] border border-white/20 flex items-center justify-center transition-all hover:scale-110"
+                                >
+                                    <MaskImage w="1em" h="1em" url="/icons/linkedin.svg" bg="var(--bg-w)" hBg="" c="" hL="1" />
+                                </a>
+                            </div>
                         </motion.div>
 
                         {/* Metric Highlights Grid */}

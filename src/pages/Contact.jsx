@@ -125,7 +125,7 @@ ${form.message || "None provided"}
         {
             title: "Emergency Hotline",
             badge: "24/7 Critical Care",
-            desc: "+91 98400 77508 / +91 98400 77509",
+            desc: "+91 98400 77508 / +91 80159 32591",
             subText: "24/7 ambulance dispatch, cardiac emergency intervention & trauma ICU.",
             actionText: "Call +91 98400 77508",
             actionUrl: "tel:9840077508",
@@ -145,10 +145,10 @@ ${form.message || "None provided"}
         {
             title: "Email & Desk",
             badge: "General & Academic",
-            desc: "contact@speedhospital.com",
-            subText: "Academic desk: admissions@speedmedical.com",
+            desc: "support@speedlearningapp.com",
+            subText: "Hospital desk: info@speedhospitals.com",
             actionText: "Send An Email",
-            actionUrl: "mailto:contact@speedhospital.com",
+            actionUrl: "mailto:support@speedlearningapp.com",
             icon: "/icons/mail.svg",
             accent: "from-[#6D7FF7] to-[#68C6F4]"
         }
@@ -156,11 +156,11 @@ ${form.message || "None provided"}
 
     const departments = [
         { name: "Cardiothoracic Surgery (Dr. Vinayak Senthil)", phone: "+91 98400 77508", hours: "By Appointment / Emergency 24/7" },
-        { name: "24/7 Casualty & Cardiac Emergency ICU", phone: "+91 98400 77508", hours: "Open 24 Hours • 365 Days" },
-        { name: "Cardiology & Non-Invasive Diagnostics", phone: "+91 98400 77509", hours: "9:00 AM – 9:00 PM" },
-        { name: "General Medicine & Health Checkups", phone: "+91 98400 77509", hours: "8:00 AM – 10:00 PM" },
-        { name: "SPEED Medical Institute Academic Desk", phone: "044 - 2486 4444", hours: "9:00 AM – 6:00 PM" },
-        { name: "SPEED Medical Village Administration", phone: "044 - 2486 5555", hours: "9:00 AM – 7:00 PM" }
+        { name: "24/7 Casualty & Cardiac Emergency ICU", phone: "+91 80159 32591", hours: "Open 24 Hours • 365 Days" },
+        { name: "SPEED Hospital Reception & Admission Desk", phone: "+91 80159 32591", hours: "8:00 AM – 10:00 PM" },
+        { name: "SPEED Learning App Support & Mentorship", phone: "+91 98400 77508", hours: "9:00 AM – 8:00 PM" },
+        { name: "DOPAMINE Platform & Retreat Desk", phone: "+91 98400 77508", hours: "9:00 AM – 7:00 PM" },
+        { name: "SPEED Medical Village Administration", phone: "+91 80159 32591", hours: "9:00 AM – 7:00 PM" }
     ];
 
     const faqs = [
@@ -769,80 +769,96 @@ ${form.message || "None provided"}
                 </div>
             </section>
 
-            {/* 7. Speed Hospital Footer */}
-            <footer className="bg-[#00203B] text-white pt-16 pb-8 border-t-4 border-[var(--acc-3)]">
-                <div className="w-full max-w-[1400px] mx-auto px-4 sm:px-8 lg:px-12">
+            {/* 7. Speed Hospital Footer — same as About page */}
+            <footer className="w-full max-w-[1920px] mx-auto footer-wrapper overflow-hidden">
+                <div className="w-full max-w-[1280px] h-full mx-auto px-4 sm:px-8 pt-16 pb-8">
                     <div className="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-white/10">
                         
-                        {/* Column 1: Hospital Branding */}
-                        <div className="md:col-span-5 flex flex-col items-start">
-                            <Link to="/" className="inline-block">
-                                <img src="/logo/logo.png" alt="SPEED Hospital Logo" className="h-14 w-auto brightness-0 invert" />
-                            </Link>
-                            <p className="font-pt-san font-bold text-lg text-white mt-4">
-                                SPEED Multi Speciality Hospital
+                        {/* Column 1: Doctor & Specialty Info */}
+                        <div className="md:col-span-5 flex flex-col text-white">
+                            <h3 className="font-pridi text-2xl sm:text-3xl font-semibold">
+                                Dr. K. Vinayak Senthil
+                            </h3>
+                            <p className="text-[var(--acc-1)] text-sm font-medium mt-1">
+                                Cardio Vascular &amp; Thoracic Surgeon
                             </p>
-                            <p className="text-white/80 text-xs sm:text-sm mt-2 leading-relaxed max-w-md">
-                                Dedicated to cardiothoracic excellence, round-the-clock emergency medical response, and world-class healthcare delivery under the leadership of Dr. K. Vinayak Senthil.
+                            <p className="text-white/80 text-xs sm:text-sm mt-4 leading-relaxed max-w-md">
+                                Committed to surgical precision, evidence-based patient safety, and pioneering structured medical education systems across India.
                             </p>
                             
-                            <div className="mt-6 flex gap-3">
-                                <a href="https://facebook.com" target="_blank" rel="noreferrer" className="w-9 h-9 rounded-full bg-white/10 hover:bg-[var(--acc-3)] flex items-center justify-center transition-colors">
+                            <div className="mt-6 flex flex-wrap gap-3">
+                                <a href="https://www.facebook.com/speedlearningapp/" target="_blank" rel="noreferrer" title="Facebook - SPEED" className="w-9 h-9 rounded-full bg-white/10 hover:bg-[#1877F2] flex items-center justify-center transition-all hover:scale-110">
                                     <MaskImage w="1em" h="1em" url="/icons/facebook.svg" bg="var(--bg-w)" hBg="" c="" hL="1" />
                                 </a>
-                                <a href="https://whatsapp.com" target="_blank" rel="noreferrer" className="w-9 h-9 rounded-full bg-white/10 hover:bg-[#25D366] flex items-center justify-center transition-colors">
+                                <a href="https://wa.me/919840077508" target="_blank" rel="noreferrer" title="WhatsApp - Dr. Vinayak Senthil" className="w-9 h-9 rounded-full bg-white/10 hover:bg-[#25D366] flex items-center justify-center transition-all hover:scale-110">
                                     <MaskImage w="1em" h="1em" url="/icons/whatsapp.svg" bg="var(--bg-w)" hBg="" c="" hL="1" />
                                 </a>
-                                <a href="https://instagram.com" target="_blank" rel="noreferrer" className="w-9 h-9 rounded-full bg-white/10 hover:bg-[#E1306C] flex items-center justify-center transition-colors">
+                                <a href="https://www.instagram.com/speedlearningapp/" target="_blank" rel="noreferrer" title="Instagram - SPEED" className="w-9 h-9 rounded-full bg-white/10 hover:bg-[#E1306C] flex items-center justify-center transition-all hover:scale-110">
                                     <MaskImage w="1em" h="1em" url="/icons/instagram.svg" bg="var(--bg-w)" hBg="" c="" hL="1" />
                                 </a>
-                                <a href="https://x.com" target="_blank" rel="noreferrer" className="w-9 h-9 rounded-full bg-white/10 hover:bg-[var(--acc-3)] flex items-center justify-center transition-colors">
-                                    <MaskImage w="1em" h="1em" url="/icons/x.svg" bg="var(--bg-w)" hBg="" c="" hL="1" />
+                                <a href="https://www.youtube.com/@SpeedLearningApp" target="_blank" rel="noreferrer" title="YouTube Masterclasses - SPEED" className="w-9 h-9 rounded-full bg-white/10 hover:bg-[#FF0000] flex items-center justify-center transition-all hover:scale-110">
+                                    <MaskImage w="1em" h="1em" url="/icons/youtube.svg" bg="var(--bg-w)" hBg="" c="" hL="1" />
+                                </a>
+                                <a href="https://www.linkedin.com/company/speed-medical-centre/" target="_blank" rel="noreferrer" title="LinkedIn - SPEED Medical Centre" className="w-9 h-9 rounded-full bg-white/10 hover:bg-[#0A66C2] flex items-center justify-center transition-all hover:scale-110">
+                                    <MaskImage w="1em" h="1em" url="/icons/linkedin.svg" bg="var(--bg-w)" hBg="" c="" hL="1" />
                                 </a>
                             </div>
                         </div>
 
-                        {/* Column 2: Quick Links */}
+                        {/* Column 2: Page Navigation Links */}
                         <div className="md:col-span-3 flex flex-col text-white text-xs sm:text-sm">
                             <h4 className="font-bold text-base tracking-wider uppercase text-[var(--acc-1)] mb-4">
-                                Quick Navigation
+                                Page Sections
                             </h4>
                             <ul className="space-y-2.5 text-white/80">
-                                <li><Link to="/" className="hover:text-[var(--acc-1)] transition-colors">Home</Link></li>
-                                <li><Link to="/about" className="hover:text-[var(--acc-1)] transition-colors">About Dr. Vinayak Senthil</Link></li>
-                                <li><a href="/#why-choose" className="hover:text-[var(--acc-1)] transition-colors">Clinical Expertise</a></li>
+                                <li><a href="/" className="hover:text-[var(--acc-1)] transition-colors">← Back to Main Home</a></li>
+                                <li><a href="/about" className="hover:text-[var(--acc-1)] transition-colors">About Dr. Vinayak Senthil</a></li>
+                                <li><a href="/#ecosystem" className="hover:text-[var(--acc-1)] transition-colors text-[var(--acc-1)] font-semibold">SPEED & DOPAMINE Ecosystem</a></li>
+                                <li><a href="/#why-choose" className="hover:text-[var(--acc-1)] transition-colors">Clinical Care &amp; Surgery</a></li>
                                 <li><a href="/#surgery" className="hover:text-[var(--acc-1)] transition-colors">Cardiothoracic Surgery</a></li>
-                                <li><a href="/#treatment" className="hover:text-[var(--acc-1)] transition-colors">AI-Powered Patient Care</a></li>
-                                <li><Link to="/contact" className="hover:text-[var(--acc-1)] transition-colors text-[var(--acc-1)] font-semibold">Contact & Location</Link></li>
+                                <li><a href="/about#village" className="hover:text-[var(--acc-1)] transition-colors">SPEED Medical Village</a></li>
+                                <li><a href="/about#digital" className="hover:text-[var(--acc-1)] transition-colors">DOPAMINE Digital Platform</a></li>
+                                <li><a href="/about#milestones" className="hover:text-[var(--acc-1)] transition-colors">Career Trajectory (2001-2026)</a></li>
+                                <li><Link to="/contact" className="hover:text-[var(--acc-1)] transition-colors font-semibold text-[var(--acc-1)]">Hospital Contact &amp; Map →</Link></li>
                             </ul>
                         </div>
 
-                        {/* Column 3: Exact Address & Emergency Contacts */}
+                        {/* Column 3: Hospital Clinic Location & Hours */}
                         <div className="md:col-span-4 flex flex-col text-white text-xs sm:text-sm">
                             <h4 className="font-bold text-base tracking-wider uppercase text-[var(--acc-1)] mb-4">
-                                Hospital Location
+                                Hospital &amp; OPD Location
                             </h4>
                             <div className="space-y-3 text-white/80">
                                 <p className="leading-relaxed">
                                     <strong className="text-white block">SPEED Multi Speciality Hospital</strong>
                                     494, Kundrathur Main Rd, Padmavathi Nagar, Kamatchiamman Nagar, Mangadu, Tamil Nadu 600122
                                 </p>
-                                <p>
-                                    <strong className="text-white">24/7 Emergency Hotline:</strong>{" "}
-                                    <a href="tel:9840077508" className="text-[var(--acc-1)] font-semibold hover:underline">
-                                        +91 98400 77508
-                                    </a>
-                                </p>
-                                <p>
-                                    <strong className="text-white">Hospital Board:</strong>{" "}
-                                    <a href="tel:9840077509" className="text-[var(--acc-1)] font-semibold hover:underline">
-                                        +91 98400 77509
-                                    </a>
-                                </p>
+                                <div>
+                                    <span className="text-white font-medium block">Doctor & Emergency Hotline:</span>
+                                    <div className="flex flex-wrap items-center gap-2 mt-0.5">
+                                        <a href="tel:9840077508" className="text-[var(--acc-1)] font-semibold hover:underline">
+                                            +91 98400 77508
+                                        </a>
+                                        <span className="text-white/40">/</span>
+                                        <a href="tel:8015932591" className="text-white/90 hover:text-[var(--acc-1)] hover:underline">
+                                            +91 80159 32591
+                                        </a>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span className="text-white font-medium block">Official Email:</span>
+                                    <div className="flex flex-col gap-0.5 mt-0.5">
+                                        <a href="mailto:support@speedlearningapp.com" className="text-[var(--acc-1)] hover:underline">
+                                            support@speedlearningapp.com
+                                        </a>
+                                        <a href="mailto:info@speedhospitals.com" className="text-white/80 hover:underline text-xs">
+                                            info@speedhospitals.com
+                                        </a>
+                                    </div>
+                                </div>
                                 <p>
                                     <strong className="text-white">Consultation Hours:</strong><br />
-                                    Monday – Sunday: 9:00 AM – 10:00 PM<br />
-                                    <span className="text-emerald-400 font-medium">Emergency & Trauma: 24/7 Open</span>
+                                    Monday – Sunday: 9:00 AM – 10:00 PM (Casualty 24/7)
                                 </p>
                             </div>
                         </div>
@@ -851,8 +867,8 @@ ${form.message || "None provided"}
 
                     {/* Bottom Copyright */}
                     <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-white/60">
-                        <p>© 2026 SPEED Multi Speciality Hospital. All rights reserved.</p>
-                        <p>Mangadu, Chennai • Tamil Nadu, India</p>
+                        <p>© 2026 Dr. K. Vinayak Senthil. All rights reserved.</p>
+                        <p>SPEED Multi Speciality Hospital • SPEED Medical Institute • DOPAMINE</p>
                     </div>
                 </div>
             </footer>

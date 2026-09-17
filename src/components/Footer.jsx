@@ -33,19 +33,22 @@ function Footer() {
                 </div>
                 <p className='text-[var(--t-c-l)] font-semibold text-[1.1em] mb-2'>SPEED Multi Speciality Hospital</p>
                 <p className='text-[var(--t-c-l)] opacity-90 text-[.95em]'>Dedicated to cardiothoracic excellence, round-the-clock emergency medical response, and world-class healthcare delivery under the leadership of Dr. K. Vinayak Senthil.</p>
-                <div className='flex gap-3 items-center mt-10'>
-                  <div className='bg-[#ffffff10] w-[2.85em] text-[16px] aspect-square flex justify-center items-center shadow-[0px_0px_10px_rgba(0,0,0,0.1)] backdrop-blur'>
+                <div className='flex gap-3 items-center mt-8 flex-wrap'>
+                  <a href="https://www.facebook.com/speedlearningapp/" target="_blank" rel="noreferrer" title="Facebook - SPEED" className='bg-[#ffffff10] hover:bg-[#1877F2] w-[2.85em] text-[16px] aspect-square flex justify-center items-center shadow-[0px_0px_10px_rgba(0,0,0,0.1)] backdrop-blur rounded-full transition-all hover:scale-110'>
                     <MaskImage w='1.1em' h='1.1em' url="/icons/facebook.svg" bg="var(--bg-w)" hBg="" c="translate-x-[2px]" hL="1" />
-                  </div>
-                  <div className='bg-[#ffffff10] w-[2.85em] text-[16px] aspect-square flex justify-center items-center shadow-[0px_0px_10px_rgba(0,0,0,0.1)] backdrop-blur'>
-                    <MaskImage w='1em' h='1em' url="/icons/whatsapp.svg" bg="var(--bg-w)" hBg="" c="translate-x-[2px]" hL="1" />
-                  </div>
-                  <div className='bg-[#ffffff10] w-[2.85em] text-[16px] aspect-square flex justify-center items-center shadow-[0px_0px_10px_rgba(0,0,0,0.1)] backdrop-blur'>
-                    <MaskImage w='1em' h='1em' url="/icons/instagram.svg" bg="var(--bg-w)" hBg="" c="translate-x-[2px]" hL="1" />
-                  </div>
-                  <div className='bg-[#ffffff10] w-[2.85em] text-[16px] aspect-square flex justify-center items-center shadow-[0px_0px_10px_rgba(0,0,0,0.1)] backdrop-blur'>
-                    <MaskImage w='1em' h='1em' url="/icons/x.svg" bg="var(--bg-w)" hBg="" c="translate-x-[2px]" hL="1" />
-                  </div>
+                  </a>
+                  <a href="https://wa.me/919840077508" target="_blank" rel="noreferrer" title="WhatsApp - Dr. Vinayak Senthil" className='bg-[#ffffff10] hover:bg-[#25D366] w-[2.85em] text-[16px] aspect-square flex justify-center items-center shadow-[0px_0px_10px_rgba(0,0,0,0.1)] backdrop-blur rounded-full transition-all hover:scale-110'>
+                    <MaskImage w='1.1em' h='1.1em' url="/icons/whatsapp.svg" bg="var(--bg-w)" hBg="" c="translate-x-[1px]" hL="1" />
+                  </a>
+                  <a href="https://www.instagram.com/speedlearningapp/" target="_blank" rel="noreferrer" title="Instagram - SPEED" className='bg-[#ffffff10] hover:bg-[#E1306C] w-[2.85em] text-[16px] aspect-square flex justify-center items-center shadow-[0px_0px_10px_rgba(0,0,0,0.1)] backdrop-blur rounded-full transition-all hover:scale-110'>
+                    <MaskImage w='1.1em' h='1.1em' url="/icons/instagram.svg" bg="var(--bg-w)" hBg="" c="translate-x-[1px]" hL="1" />
+                  </a>
+                  <a href="https://www.youtube.com/@SpeedLearningApp" target="_blank" rel="noreferrer" title="YouTube Masterclasses - SPEED" className='bg-[#ffffff10] hover:bg-[#FF0000] w-[2.85em] text-[16px] aspect-square flex justify-center items-center shadow-[0px_0px_10px_rgba(0,0,0,0.1)] backdrop-blur rounded-full transition-all hover:scale-110'>
+                    <MaskImage w='1.1em' h='1.1em' url="/icons/youtube.svg" bg="var(--bg-w)" hBg="" c="" hL="1" />
+                  </a>
+                  <a href="https://www.linkedin.com/company/speed-medical-centre/" target="_blank" rel="noreferrer" title="LinkedIn - SPEED Medical Centre" className='bg-[#ffffff10] hover:bg-[#0A66C2] w-[2.85em] text-[16px] aspect-square flex justify-center items-center shadow-[0px_0px_10px_rgba(0,0,0,0.1)] backdrop-blur rounded-full transition-all hover:scale-110'>
+                    <MaskImage w='1.1em' h='1.1em' url="/icons/linkedin.svg" bg="var(--bg-w)" hBg="" c="" hL="1" />
+                  </a>
                 </div>
               </div>
 
@@ -53,10 +56,11 @@ function Footer() {
             <div className='lg:col-span-3 md:col-span-4 sm:col-span-6 col-span-12 sm:mb-10 mb-16 lg:mb-0'>
               <div className='flex sm:justify-center'>
                 <div className='footer-links text-[16px] w-max'>
-                  <h2 className='text-[var(--t-c-l)] font-bold tracking-[1px] text-[1.22em] fh-text relative leading-6'>Useful  Links</h2>
+                  <h2 className='text-[var(--t-c-l)] font-bold tracking-[1px] text-[1.22em] fh-text relative leading-6'>Navigation</h2>
                   <div className='footer-link mt-8 flex flex-col gap-3'>
                     <a className='text-[var(--t-c-l)] text-[1.07em] tracking-[.5px] fl-text relative' href="/">Home</a>
                     <a className='text-[var(--t-c-l)] text-[1.07em] tracking-[.5px] fl-text relative' href="/about">About Doctor</a>
+                    <a className='text-[var(--t-c-l)] text-[1.07em] tracking-[.5px] fl-text relative' href="/#ecosystem">SPEED & DOPAMINE</a>
                     <a className='text-[var(--t-c-l)] text-[1.07em] tracking-[.5px] fl-text relative' href="/#why-choose">Clinical Expertise</a>
                     <a className='text-[var(--t-c-l)] text-[1.07em] tracking-[.5px] fl-text relative' href="/#surgery">Cardiac Surgery</a>
                     <a className='text-[var(--t-c-l)] text-[1.07em] tracking-[.5px] fl-text relative' href="/contact">Contact Us</a>
@@ -67,18 +71,19 @@ function Footer() {
             <div className='lg:col-span-3 md:col-span-4 sm:col-span-6 col-span-12 sm:mb-10 mb-16 lg:mb-0'>
               <div className='flex flex-col'>
                 <div className='footer-links text-[16px] w-max'>
-                  <h2 className='text-[var(--t-c-l)] font-bold tracking-[1px] text-[1.22em] fh-text relative leading-6'>Useful  Links</h2>
+                  <h2 className='text-[var(--t-c-l)] font-bold tracking-[1px] text-[1.22em] fh-text relative leading-6'>Products & Portals</h2>
                   <div className='footer-link mt-8 flex flex-col gap-3'>
-                    <a className='text-[var(--t-c-l)] text-[1.07em] tracking-[.5px] fl-text relative' href="/">NEET SS / INI-SS</a>
-                    <a className='text-[var(--t-c-l)] text-[1.07em] tracking-[.5px] fl-text relative' href="/">PG RESIDENCY MD/MS/DNB</a>
-                    <a className='text-[var(--t-c-l)] text-[1.07em] tracking-[.5px] fl-text relative' href="/">EXIT SS - DM/MCH</a>
+                    <a className='text-[var(--t-c-l)] text-[1.07em] tracking-[.5px] fl-text relative hover:text-[var(--acc-1)]' href="https://speedhospitals.com/" target="_blank" rel="noreferrer">SPEED Hospital ↗</a>
+                    <a className='text-[var(--t-c-l)] text-[1.07em] tracking-[.5px] fl-text relative hover:text-[var(--acc-1)]' href="https://speedlearningapp.com/" target="_blank" rel="noreferrer">Speed Learning App ↗</a>
+                    <a className='text-[var(--t-c-l)] text-[1.07em] tracking-[.5px] fl-text relative hover:text-[var(--acc-1)]' href="https://dopaminemed.com/index" target="_blank" rel="noreferrer">DOPAMINE Platform ↗</a>
+                    <a className='text-[var(--t-c-l)] text-[1.07em] tracking-[.5px] fl-text relative hover:text-[var(--acc-1)]' href="https://dopaminemed.com/residential-neet-pg-inicet-pg-fmge/" target="_blank" rel="noreferrer">Dopamine Retreat (CMR 2.0) ↗</a>
                   </div>
                 </div>
                 <div className='footer-links text-[16px] w-max mt-8'>
-                  <h2 className='text-[var(--t-c-l)] font-bold tracking-[1px] text-[1.22em] fh-text relative leading-6'>Get Our App</h2>
+                  <h2 className='text-[var(--t-c-l)] font-bold tracking-[1px] text-[1.22em] fh-text relative leading-6'>Get Our Apps</h2>
                   <div className='flex gap-2 items-center mt-6'>
-                    <div className=' h-[2.2em] shadow-[0px_0px_10px_rgba(0,0,0,0.1)]'><img className='h-full' src="/app/google-l.svg" alt="app" /></div>
-                    <div className=' h-[2.2em] shadow-[0px_0px_10px_rgba(0,0,0,0.1)]'><img className='h-full' src="/app/apple-l.svg" alt="app" /></div>
+                    <a href="https://play.google.com/store" target="_blank" rel="noreferrer" className='h-[2.2em] shadow-[0px_0px_10px_rgba(0,0,0,0.1)] hover:scale-105 transition-transform'><img className='h-full' src="/app/google-l.svg" alt="Google Play" /></a>
+                    <a href="https://www.apple.com/app-store/" target="_blank" rel="noreferrer" className='h-[2.2em] shadow-[0px_0px_10px_rgba(0,0,0,0.1)] hover:scale-105 transition-transform'><img className='h-full' src="/app/apple-l.svg" alt="App Store" /></a>
                   </div>
                 </div>
               </div>
@@ -130,20 +135,27 @@ function Footer() {
                     <MaskImage w='2.5em' h='2.5em' url="/icons/call.svg" bg="var(--acc-1)" hBg="" c="" hL="1" />
                   </div>
                   <div className='flex flex-col justify-center'>
-                    <p className='text-[var(--t-c-l)] font-pt-san text-[.9em] eading-7'>Need Help? Contact Us</p>
-                    <a href="/" className='text-[var(--s-c)] font-semibold text-[1.33em] leading-7'>+91 98400 77508 </a>
+                    <p className='text-[var(--t-c-l)] font-pt-san text-[.9em] leading-tight'>Need Help? Contact Us</p>
+                    <div className='flex flex-wrap items-center gap-x-3 gap-y-1 mt-1'>
+                      <a href="tel:9840077508" className='text-[var(--s-c)] font-semibold text-[1.25em] leading-tight hover:underline'>+91 98400 77508</a>
+                      <span className='text-white/40 text-xs'>|</span>
+                      <a href="tel:8015932591" className='text-white/80 font-medium text-[.95em] leading-tight hover:text-[var(--s-c)] hover:underline'>+91 80159 32591</a>
+                    </div>
                   </div>
-                  <div className='gra-1 ms-auto text-[10px] 2xl:text-[16px] xl:text-[12px] sm:text-[16px]  flex justify-center items-center gap-2 sm:p-[13px] p-[8px] lg:px-6 rounded-full shadow-[0px_0px_10px_rgba(0,0,0,0.2)]'>
+                  <a href="/contact" className='gra-1 ms-auto text-[10px] 2xl:text-[16px] xl:text-[12px] sm:text-[16px] flex justify-center items-center gap-2 sm:p-[13px] p-[8px] lg:px-6 rounded-full shadow-[0px_0px_10px_rgba(0,0,0,0.2)] hover:scale-105 transition-transform'>
                     <MaskImage w='1.4em' h='1.4em' url="/icons/call.svg" bg="var(--bg-w)" hBg="" c="" hL="1" />
                     <p className='text-[var(--t-c-l)] font-semibold flex'>Enquire Now</p>
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>
             <div className='lg:col-span-3 col-span-12'>
               <div className='flex items-center gap-3 py-4 sm:px-5 px-3 h-full lg:justify-center xl:text-[16px] lg:text-[12px] lg:border-r-[2px] border-b-[2px] border-[#ffffff10]'>
                 <MaskImage w='1.5em' h='1.5em' url="/icons/mail.svg" bg="var(--s-c)" hBg="" c="flex-shrink-0" hL="1" />
-                <p className='text-[.9em] text-[var(--t-c-l)]'>Support@speedlearningapp.com</p>
+                <div className='flex flex-col text-left'>
+                  <a href="mailto:support@speedlearningapp.com" className='text-[.9em] text-[var(--t-c-l)] hover:text-[var(--s-c)] hover:underline'>support@speedlearningapp.com</a>
+                  <a href="mailto:info@speedhospitals.com" className='text-[.8em] text-white/70 hover:text-[var(--s-c)] hover:underline'>info@speedhospitals.com</a>
+                </div>
               </div>
             </div>
             <div className='lg:col-span-3 col-span-12'>

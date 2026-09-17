@@ -119,14 +119,35 @@ function SpeedInstitute() {
                             </p>
                         </div>
 
-                        {/* Highlight 2: Velammal Guest Lecture */}
-                        <div className="mt-4 p-4 rounded-xl bg-white/70 border border-slate-200 flex items-center gap-3.5">
-                            <div className="w-10 h-10 rounded-xl bg-[var(--acc-2)]/10 flex items-center justify-center flex-shrink-0">
-                                <MaskImage w="1.3em" h="1.3em" url="/icons/blog.svg" bg="var(--acc-2)" hBg="" c="" hL="1" />
+                        {/* Highlight 2: Speed Learning App */}
+                        <div className="mt-4 p-5 rounded-2xl bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200/70 shadow-sm flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                            <div className="flex items-start gap-3.5">
+                                <div className="w-11 h-11 rounded-xl bg-[var(--acc-3)] text-white flex items-center justify-center flex-shrink-0 shadow-md">
+                                    <MaskImage w="1.3em" h="1.3em" url="/icons/course.svg" bg="currentColor" hBg="" c="" hL="1" />
+                                </div>
+                                <div>
+                                    <div className="flex items-center gap-2 mb-0.5">
+                                        <h4 className="font-bold text-sm sm:text-base text-[var(--t-c-d)]">
+                                            Speed Learning App
+                                        </h4>
+                                        <span className="px-2 py-0.2 rounded bg-emerald-100 text-emerald-800 text-[10px] font-extrabold uppercase">
+                                            India's #1 NEET SS App
+                                        </span>
+                                    </div>
+                                    <p className="text-xs text-gray-600 leading-relaxed">
+                                        One-Stop Resource for NEET SS DM & MCh, NEET PG, MDS, and NEET UG. 35,000+ selections nationwide.
+                                    </p>
+                                </div>
                             </div>
-                            <div className="text-xs sm:text-sm text-gray-700">
-                                <strong className="text-[var(--acc-2)]">Velammal Medical College (2023):</strong> Invited guest lecture on competitive exam sensitization, psychological stamina, and study prioritization.
-                            </div>
+                            <a
+                                href="https://speedlearningapp.com/"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="px-4 py-2 rounded-xl bg-slate-900 hover:bg-[var(--acc-3)] text-white text-xs font-bold whitespace-nowrap text-center transition-colors shadow flex items-center justify-center gap-1.5 flex-shrink-0"
+                            >
+                                <span>Visit App</span>
+                                <span>↗</span>
+                            </a>
                         </div>
 
                     </motion.div>
@@ -150,13 +171,24 @@ function SpeedInstitute() {
 
                             {/* Prominent High-Contrast Card Panel */}
                             <div className="absolute bottom-4 left-4 right-4 sm:bottom-6 sm:left-6 sm:right-6 p-5 sm:p-6 rounded-2xl bg-[#001529]/95 backdrop-blur-xl border border-white/20 shadow-[0_15px_35px_rgba(0,0,0,0.6)] text-white z-10">
-                                <div className="flex flex-wrap items-center gap-2 mb-2">
-                                    <span className="px-3 py-1 rounded-full bg-[var(--acc-3)] text-white text-[11px] font-bold uppercase tracking-wider shadow-sm">
-                                        Established 2002 • Chennai
-                                    </span>
-                                    <span className="px-2.5 py-0.5 rounded-full bg-white/15 text-[var(--acc-1)] text-[11px] font-semibold backdrop-blur-sm">
-                                        Headquarters
-                                    </span>
+                                <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
+                                    <div className="flex items-center gap-2">
+                                        <span className="px-3 py-1 rounded-full bg-[var(--acc-3)] text-white text-[11px] font-bold uppercase tracking-wider shadow-sm">
+                                            Established 2002 • Chennai
+                                        </span>
+                                        <span className="px-2.5 py-0.5 rounded-full bg-white/15 text-[var(--acc-1)] text-[11px] font-semibold backdrop-blur-sm">
+                                            Headquarters
+                                        </span>
+                                    </div>
+                                    <a
+                                        href="https://speedlearningapp.com/"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className="text-[11px] font-bold text-[var(--acc-1)] hover:underline flex items-center gap-1"
+                                    >
+                                        <span>speedlearningapp.com</span>
+                                        <span>↗</span>
+                                    </a>
                                 </div>
                                 <h4 className="text-xl sm:text-2xl font-bold font-pt-san text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">
                                     SPEED Medical Institute
@@ -166,7 +198,7 @@ function SpeedInstitute() {
                                 </p>
                                 <div className="mt-3 pt-3 border-t border-white/15 flex items-center justify-between text-xs text-slate-300">
                                     <span>Founded & Led by <strong>Dr. Vinayak Senthil</strong></span>
-                                    <span className="text-[var(--acc-1)] font-semibold">23+ Yrs Excellence</span>
+                                    <span className="text-[var(--acc-1)] font-semibold">35,000+ Super-Specialty Seats</span>
                                 </div>
                             </div>
                         </div>

@@ -221,6 +221,83 @@ function MedicalVillage() {
                     ))}
                 </motion.div>
 
+                {/* Flagship Program Spotlight: Dopamine Retreat + Advance GMI 2.0 (CMR 2.0) */}
+                <motion.div
+                    className="mt-16 bg-[#001529] rounded-3xl p-8 sm:p-12 text-white border border-white/10 shadow-2xl relative overflow-hidden"
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: true }}
+                    variants={fadeUp}
+                >
+                    <div className="absolute top-0 right-0 w-96 h-96 bg-[#2AD2C1]/10 rounded-full blur-3xl pointer-events-none" />
+                    <div className="absolute bottom-0 left-10 w-80 h-80 bg-purple-600/10 rounded-full blur-3xl pointer-events-none" />
+
+                    <div className="relative z-10">
+                        <div className="flex flex-wrap items-center justify-between gap-4 pb-6 border-b border-white/10">
+                            <div>
+                                <span className="px-3 py-1 rounded-full bg-[#2BEFAD]/20 border border-[#2BEFAD]/40 text-[#2BEFAD] text-[11px] font-bold uppercase tracking-wider">
+                                    Hosted at SPEED Medical Village
+                                </span>
+                                <h3 className="text-2xl sm:text-3xl font-bold font-pt-san text-white mt-2">
+                                    DOPAMINE Retreat + Advance GMI 2.0
+                                </h3>
+                                <p className="text-slate-300 text-xs sm:text-sm mt-1">
+                                    India’s First Immersive, Exam-Ready Retreat for NEET PG / INICET / FMGE
+                                </p>
+                            </div>
+                            <a
+                                href="https://dopaminemed.com/residential-neet-pg-inicet-pg-fmge/"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="gra-6 px-6 py-3 rounded-full text-white font-semibold text-xs sm:text-sm shadow-lg hover:scale-105 transition-transform flex items-center gap-2"
+                            >
+                                <span>Official Retreat Portal</span>
+                                <span>↗</span>
+                            </a>
+                        </div>
+
+                        {/* Retreat Program Flow Pillars */}
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+                            <div className="p-5 rounded-2xl bg-white/5 border border-white/10">
+                                <div className="text-[var(--acc-1)] text-xs font-bold uppercase tracking-wider mb-2">01. Circadian Routine</div>
+                                <h4 className="text-base font-bold text-white mb-2">Mindfulness & Healthy Habits</h4>
+                                <p className="text-xs text-slate-300 leading-relaxed">
+                                    Morning yoga, mindfulness sessions, and organic balanced meals engineered to eliminate preparation burnout and sustain peak cognitive energy.
+                                </p>
+                            </div>
+                            <div className="p-5 rounded-2xl bg-white/5 border border-white/10">
+                                <div className="text-[var(--acc-1)] text-xs font-bold uppercase tracking-wider mb-2">02. Academic Precision</div>
+                                <h4 className="text-base font-bold text-white mb-2">Daily Tests & Evening Faculty</h4>
+                                <p className="text-xs text-slate-300 leading-relaxed">
+                                    Rigorous morning recall tests followed by 2-hour evening faculty discussions that connect concepts, clear doubts, and cement clinical understanding.
+                                </p>
+                            </div>
+                            <div className="p-5 rounded-2xl bg-white/5 border border-white/10">
+                                <div className="text-[var(--acc-1)] text-xs font-bold uppercase tracking-wider mb-2">03. Application Marathons</div>
+                                <h4 className="text-base font-bold text-white mb-2">Weekend 8 AM – 8 PM Sessions</h4>
+                                <p className="text-xs text-slate-300 leading-relaxed">
+                                    Intensive faculty-led application sessions solving high-yield MCQs, integrated clinical scenarios, and rapid-fire revision rounds.
+                                </p>
+                            </div>
+                        </div>
+
+                        {/* Transforming Last Benchers to Rankers Statement */}
+                        <div className="mt-8 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-300">
+                            <p>
+                                <strong className="text-white">Mentor’s Promise:</strong> "We don’t just prepare toppers; we turn last-benchers and mid-rankers into confident, rank-winning doctors." — <em>Dr. Vinayak Senthil</em>
+                            </p>
+                            <a
+                                href="https://dopaminemed.com/residential-neet-pg-inicet-pg-fmge/"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="text-[var(--acc-1)] font-semibold hover:underline flex-shrink-0"
+                            >
+                                Learn More & Register Batch →
+                            </a>
+                        </div>
+                    </div>
+                </motion.div>
+
             </div>
         </section>
     );

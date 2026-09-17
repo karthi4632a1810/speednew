@@ -62,18 +62,21 @@ function AboutDoctor() {
                                 Committed to surgical precision, evidence-based patient safety, and pioneering structured medical education systems across India.
                             </p>
                             
-                            <div className="mt-6 flex gap-3">
-                                <a href="https://facebook.com" target="_blank" rel="noreferrer" className="w-9 h-9 rounded-full bg-white/10 hover:bg-[var(--acc-3)] flex items-center justify-center transition-colors">
+                            <div className="mt-6 flex flex-wrap gap-3">
+                                <a href="https://www.facebook.com/speedlearningapp/" target="_blank" rel="noreferrer" title="Facebook - SPEED" className="w-9 h-9 rounded-full bg-white/10 hover:bg-[#1877F2] flex items-center justify-center transition-all hover:scale-110">
                                     <MaskImage w="1em" h="1em" url="/icons/facebook.svg" bg="var(--bg-w)" hBg="" c="" hL="1" />
                                 </a>
-                                <a href="https://whatsapp.com" target="_blank" rel="noreferrer" className="w-9 h-9 rounded-full bg-white/10 hover:bg-[#25D366] flex items-center justify-center transition-colors">
+                                <a href="https://wa.me/919840077508" target="_blank" rel="noreferrer" title="WhatsApp - Dr. Vinayak Senthil" className="w-9 h-9 rounded-full bg-white/10 hover:bg-[#25D366] flex items-center justify-center transition-all hover:scale-110">
                                     <MaskImage w="1em" h="1em" url="/icons/whatsapp.svg" bg="var(--bg-w)" hBg="" c="" hL="1" />
                                 </a>
-                                <a href="https://instagram.com" target="_blank" rel="noreferrer" className="w-9 h-9 rounded-full bg-white/10 hover:bg-[#E1306C] flex items-center justify-center transition-colors">
+                                <a href="https://www.instagram.com/speedlearningapp/" target="_blank" rel="noreferrer" title="Instagram - SPEED" className="w-9 h-9 rounded-full bg-white/10 hover:bg-[#E1306C] flex items-center justify-center transition-all hover:scale-110">
                                     <MaskImage w="1em" h="1em" url="/icons/instagram.svg" bg="var(--bg-w)" hBg="" c="" hL="1" />
                                 </a>
-                                <a href="https://x.com" target="_blank" rel="noreferrer" className="w-9 h-9 rounded-full bg-white/10 hover:bg-[var(--acc-3)] flex items-center justify-center transition-colors">
-                                    <MaskImage w="1em" h="1em" url="/icons/x.svg" bg="var(--bg-w)" hBg="" c="" hL="1" />
+                                <a href="https://www.youtube.com/@SpeedLearningApp" target="_blank" rel="noreferrer" title="YouTube Masterclasses - SPEED" className="w-9 h-9 rounded-full bg-white/10 hover:bg-[#FF0000] flex items-center justify-center transition-all hover:scale-110">
+                                    <MaskImage w="1em" h="1em" url="/icons/youtube.svg" bg="var(--bg-w)" hBg="" c="" hL="1" />
+                                </a>
+                                <a href="https://www.linkedin.com/company/speed-medical-centre/" target="_blank" rel="noreferrer" title="LinkedIn - SPEED Medical Centre" className="w-9 h-9 rounded-full bg-white/10 hover:bg-[#0A66C2] flex items-center justify-center transition-all hover:scale-110">
+                                    <MaskImage w="1em" h="1em" url="/icons/linkedin.svg" bg="var(--bg-w)" hBg="" c="" hL="1" />
                                 </a>
                             </div>
                         </div>
@@ -85,12 +88,11 @@ function AboutDoctor() {
                             </h4>
                             <ul className="space-y-2.5 text-white/80">
                                 <li><a href="/" className="hover:text-[var(--acc-1)] transition-colors">← Back to Main Home</a></li>
-                                <li><a href="#four-pillars" className="hover:text-[var(--acc-1)] transition-colors">Executive Pillars</a></li>
-                                <li><a href="#clinical" className="hover:text-[var(--acc-1)] transition-colors">Clinical Care & Surgery</a></li>
-                                <li><a href="#education" className="hover:text-[var(--acc-1)] transition-colors">SPEED Medical Institute</a></li>
-                                <li><a href="#village" className="hover:text-[var(--acc-1)] transition-colors">SPEED Medical Village</a></li>
-                                <li><a href="#digital" className="hover:text-[var(--acc-1)] transition-colors">DOPAMINE Digital Platform</a></li>
-                                <li><a href="#milestones" className="hover:text-[var(--acc-1)] transition-colors">Career Trajectory (2001-2026)</a></li>
+                                <li><a href="/#ecosystem" className="hover:text-[var(--acc-1)] transition-colors text-[var(--acc-1)] font-semibold">SPEED & DOPAMINE Ecosystem</a></li>
+                                <li><a href="https://speedhospitals.com/" target="_blank" rel="noreferrer" className="hover:text-[var(--acc-1)] transition-colors">SPEED Hospital Website ↗</a></li>
+                                <li><a href="https://speedlearningapp.com/" target="_blank" rel="noreferrer" className="hover:text-[var(--acc-1)] transition-colors">Speed Learning App ↗</a></li>
+                                <li><a href="https://dopaminemed.com/index" target="_blank" rel="noreferrer" className="hover:text-[var(--acc-1)] transition-colors">DOPAMINE App & Web ↗</a></li>
+                                <li><a href="https://dopaminemed.com/residential-neet-pg-inicet-pg-fmge/" target="_blank" rel="noreferrer" className="hover:text-[var(--acc-1)] transition-colors">Dopamine Retreat (CMR 2.0) ↗</a></li>
                                 <li><a href="/contact" className="hover:text-[var(--acc-1)] transition-colors font-semibold text-[var(--acc-1)]">Hospital Contact & Map →</a></li>
                             </ul>
                         </div>
@@ -105,15 +107,32 @@ function AboutDoctor() {
                                     <strong className="text-white block">SPEED Multi Speciality Hospital</strong>
                                     494, Kundrathur Main Rd, Padmavathi Nagar, Kamatchiamman Nagar, Mangadu, Tamil Nadu 600122
                                 </p>
-                                <p>
-                                    <strong className="text-white">Emergency Hotline:</strong>{" "}
-                                    <a href="tel:9840077508" className="text-[var(--acc-1)] font-semibold hover:underline">
-                                        +91 98400 77508
-                                    </a>
-                                </p>
+                                <div>
+                                    <span className="text-white font-medium block">Doctor & Emergency Hotline:</span>
+                                    <div className="flex flex-wrap items-center gap-2 mt-0.5">
+                                        <a href="tel:9840077508" className="text-[var(--acc-1)] font-semibold hover:underline">
+                                            +91 98400 77508
+                                        </a>
+                                        <span className="text-white/40">/</span>
+                                        <a href="tel:8015932591" className="text-white/90 hover:text-[var(--acc-1)] hover:underline">
+                                            +91 80159 32591
+                                        </a>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span className="text-white font-medium block">Official Email:</span>
+                                    <div className="flex flex-col gap-0.5 mt-0.5">
+                                        <a href="mailto:support@speedlearningapp.com" className="text-[var(--acc-1)] hover:underline">
+                                            support@speedlearningapp.com
+                                        </a>
+                                        <a href="mailto:info@speedhospitals.com" className="text-white/80 hover:underline text-xs">
+                                            info@speedhospitals.com
+                                        </a>
+                                    </div>
+                                </div>
                                 <p>
                                     <strong className="text-white">Consultation Hours:</strong><br />
-                                    Monday – Sunday: 9:00 AM – 10:00 PM
+                                    Monday – Sunday: 9:00 AM – 10:00 PM (Casualty 24/7)
                                 </p>
                             </div>
                         </div>
